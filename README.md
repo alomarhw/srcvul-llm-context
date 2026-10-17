@@ -1,8 +1,8 @@
 # Shorter, Not Smarter: replication package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23430106.svg)](https://doi.org/10.5281/zenodo.23430106)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23432671.svg)](https://doi.org/10.5281/zenodo.23432671)
 
-Archived version 1.0.0: https://doi.org/10.5281/zenodo.23430106 (all versions: https://doi.org/10.5281/zenodo.23430105).
+Archived version 1.1.0 (with the LoRA adapter): https://doi.org/10.5281/zenodo.23432671 (all versions: https://doi.org/10.5281/zenodo.23430105).
 
 Replication package for the article **"Shorter, Not Smarter: Dependency Slices as Context for LLM Vulnerability Detection, Localization, and Repair"** by Hakam Alomari and Mohammad Abdur Rafi Farhab (Miami University), a journal extension of the ICPC 2025 paper on SRCVUL.
 
