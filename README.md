@@ -1,5 +1,9 @@
 # Shorter, Not Smarter: replication package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23430106.svg)](https://doi.org/10.5281/zenodo.23430106)
+
+Archived version 1.0.0: https://doi.org/10.5281/zenodo.23430106 (all versions: https://doi.org/10.5281/zenodo.23430105).
+
 Replication package for the article **"Shorter, Not Smarter: Dependency Slices as Context for LLM Vulnerability Detection, Localization, and Repair"** by Hakam Alomari and Mohammad Abdur Rafi Farhab (Miami University), a journal extension of the ICPC 2025 paper on SRCVUL.
 
 The study tests whether SRCVUL's variable-level, dependency-preserving slices are better context for an LLM than the whole function. It covers vulnerability detection, localization, and repair, on 1,835 vulnerable/fixed C/C++ pairs, with three open-weight models (Qwen2.5-Coder-14B, Qwen3-Coder-30B, Phi-4).
