@@ -1,0 +1,46 @@
+{
+ "model": "local:qwen7b-primevul-lora-blind",
+ "results": {
+  "R1": {
+   "n_units": 3670,
+   "n_pairs": 1835,
+   "fpr": 0.0,
+   "pair_correct": 0,
+   "vp_s": 0,
+   "pair_reversed": 0,
+   "pair_both_vulnerable": 0,
+   "pair_both_safe": 1835,
+   "precision": 0.0,
+   "recall": 0.0,
+   "macro_f1": 0.3333333333333333,
+   "accuracy": 0.5,
+   "n_localization_units": 1433,
+   "line_recall": 0.0,
+   "line_precision": 0.0,
+   "top_1": 0.0,
+   "overflow": 0,
+   "parse_failures": 0
+  },
+  "R4": {
+   "n_units": 3670,
+   "n_pairs": 1835,
+   "fpr": 0.0,
+   "pair_correct": 0,
+   "vp_s": 0,
+   "pair_reversed": 0,
+   "pair_both_vulnerable": 0,
+   "pair_both_safe": 1835,
+   "precision": 0.0,
+   "recall": 0.0,
+   "macro_f1": 0.3333333333333333,
+   "accuracy": 0.5,
+   "n_localization_units": 1433,
+   "line_recall": 0.0,
+   "line_precision": 0.0,
+   "top_1": 0.0,
+   "overflow": 0,
+   "parse_failures": 0
+  }
+ },
+ "training": "LoRA r=16, alpha=32, 1 epoch on 10,877 R1+R4 examples from 3,051 PrimeVul train pairs disjoint from every evaluation set (see train_config.json)"
+}

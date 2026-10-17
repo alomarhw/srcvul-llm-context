@@ -1,0 +1,20 @@
+{
+ "Qwen/Qwen2.5-Coder-14B-Instruct": {
+  "answers": 400,
+  "with_reasoning": 0,
+  "share": 0.0,
+  "median_words": 0.0
+ },
+ "Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8": {
+  "answers": 400,
+  "with_reasoning": 308,
+  "share": 0.77,
+  "median_words": 108.0
+ },
+ "microsoft/phi-4": {
+  "answers": 400,
+  "with_reasoning": 247,
+  "share": 0.618,
+  "median_words": 107.5
+ }
+}

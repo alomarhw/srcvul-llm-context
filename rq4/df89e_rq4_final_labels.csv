@@ -1,0 +1,141 @@
+layer,case_id,stage,stratum,model,representation,unit_id,primary,slice_effect,secondary_either_coder,adjudicated
+layer1,C001,slice effect,slice_effect,Phi-4,R1 vs R4,CV-236__fix,DU,hurt,CX,False
+layer1,C002,repair failure,repair_failure,Phi-4,R1,PV-206555,RW,n/a,,False
+layer1,C003,repair failure,repair_failure,Qwen3-Coder-30B,R4,SVE-11698,RX,n/a,RN,False
+layer1,C004,localization miss,localization_miss,Phi-4,R1,SVE-8158__vul,LN,n/a,,False
+layer1,C005,detection false positive,detection_false_positive,Phi-4,R4,PV-200__fix,DG,n/a,,True
+layer1,C006,detection false negative,detection_false_negative,Qwen3-Coder-30B,R1,SVE-15773__vul,CX,n/a,,False
+layer1,C007,localization miss,localization_miss,Qwen2.5-Coder-14B,R1,SVE-19981__vul,LN,n/a,,False
+layer1,C008,detection false negative,detection_false_negative,Qwen3-Coder-30B,R1,PV-7392__vul,UN,n/a,,False
+layer1,C009,repair failure,repair_failure,Qwen3-Coder-30B,R1,PV-8561,RN,n/a,,False
+layer1,C010,slice effect,slice_effect,Phi-4,R1 vs R4,PV-197518__fix,DG,hurt,,True
+layer1,C011,detection false negative,detection_false_negative,Phi-4,R1,SVE-19233__vul,UN,n/a,,True
+layer1,C012,localization miss,localization_miss,Qwen2.5-Coder-14B,R4,SVE-7727__vul,LN,n/a,,False
+layer1,C013,slice effect,slice_effect,Phi-4,R1 vs R4,PV-10663__vul,DM,helped,,False
+layer1,C014,detection false positive,detection_false_positive,Qwen3-Coder-30B,R1,CV-253__fix,DU,n/a,CX,False
+layer1,C015,detection false negative,detection_false_negative,Qwen2.5-Coder-14B,R1,PV-202898__vul,CX,n/a,,False
+layer1,C016,detection false negative,detection_false_negative,Qwen2.5-Coder-14B,R4,SVE-24642__vul,DS,n/a,,False
+layer1,C017,repair failure,repair_failure,Phi-4,R1,PV-198487,RX,n/a,CX,False
+layer1,C018,detection false positive,detection_false_positive,Qwen2.5-Coder-14B,R4,PV-211917__fix,DU,n/a,,False
+layer1,C019,localization miss,localization_miss,Phi-4,R1,PV-195234__vul,LW,n/a,,False
+layer1,C020,detection false negative,detection_false_negative,Phi-4,R1,PV-208486__vul,DM,n/a,,False
+layer1,C021,detection false negative,detection_false_negative,Qwen3-Coder-30B,R1,PV-2870__vul,CX,n/a,,False
+layer1,C022,repair failure,repair_failure,Qwen3-Coder-30B,R4,PV-212139,RN,n/a,,False
+layer1,C023,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,PV-1991__vul,UN,helped,CX,True
+layer1,C024,detection false negative,detection_false_negative,Qwen2.5-Coder-14B,R1,SVE-15140__vul,CX,n/a,CX,True
+layer1,C025,repair failure,repair_failure,Phi-4,R4,PV-216515,RN,n/a,CX,False
+layer1,C026,repair failure,repair_failure,Qwen3-Coder-30B,R1,SVE-12215,RW,n/a,RX,False
+layer1,C027,repair failure,repair_failure,Phi-4,R1,SVE-19605,RW,n/a,,False
+layer1,C028,repair failure,repair_failure,Qwen2.5-Coder-14B,R1,PV-204826,RX,n/a,RN,False
+layer1,C029,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,PV-213370__fix,DG,hurt,CX,True
+layer1,C030,localization miss,localization_miss,Phi-4,R1,CV-185__vul,UN,n/a,,False
+layer1,C031,repair failure,repair_failure,Qwen3-Coder-30B,R4,PV-195391,RX,n/a,,False
+layer1,C032,detection false negative,detection_false_negative,Qwen2.5-Coder-14B,R4,PV-196831__vul,DS,n/a,UN,False
+layer1,C033,slice effect,slice_effect,Qwen3-Coder-30B,R1 vs R4,PV-211868__fix,DG,hurt,,False
+layer1,C034,detection false positive,detection_false_positive,Qwen2.5-Coder-14B,R4,PV-205900__fix,DU,n/a,CX,False
+layer1,C035,repair failure,repair_failure,Qwen3-Coder-30B,R4,CV-219,RX,n/a,RN,False
+layer1,C036,detection false negative,detection_false_negative,Qwen2.5-Coder-14B,R4,PV-205957__vul,DM,n/a,,False
+layer1,C037,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,SVE-14642__fix,DG,hurt,,False
+layer1,C038,detection false negative,detection_false_negative,Qwen3-Coder-30B,R4,CV-165__vul,CX,n/a,,False
+layer1,C039,detection false positive,detection_false_positive,Qwen3-Coder-30B,R4,PV-8561__fix,DG,n/a,,True
+layer1,C040,localization miss,localization_miss,Qwen2.5-Coder-14B,R4,PV-208115__vul,UN,n/a,,True
+layer1,C041,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,PV-197824__vul,CX,helped,,False
+layer1,C042,detection false negative,detection_false_negative,Qwen2.5-Coder-14B,R4,PV-196811__vul,DS,n/a,UN,False
+layer1,C043,localization miss,localization_miss,Qwen2.5-Coder-14B,R4,CV-100__vul,LN,n/a,CX,False
+layer1,C044,localization miss,localization_miss,Qwen3-Coder-30B,R4,PV-201881__vul,LN,n/a,,False
+layer1,C045,repair failure,repair_failure,Qwen3-Coder-30B,R1,PV-2130,RN,n/a,,False
+layer1,C046,detection false positive,detection_false_positive,Qwen2.5-Coder-14B,R1,PV-197276__fix,LB,n/a,,False
+layer1,C047,detection false negative,detection_false_negative,Qwen2.5-Coder-14B,R1,CV-65__vul,CX,n/a,,False
+layer1,C048,localization miss,localization_miss,Phi-4,R1,CV-242__vul,LB,n/a,,False
+layer1,C049,detection false negative,detection_false_negative,Phi-4,R1,PV-0__vul,CX,n/a,,False
+layer1,C050,slice effect,slice_effect,Qwen3-Coder-30B,R1 vs R4,PV-211714__vul,DS,hurt,,False
+layer1,C051,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,PV-213025__fix,DU,hurt,,True
+layer1,C052,detection false positive,detection_false_positive,Qwen3-Coder-30B,R4,PV-198095__fix,LB,n/a,DG,True
+layer1,C053,repair failure,repair_failure,Qwen2.5-Coder-14B,R1,PV-197223,RW,n/a,,False
+layer1,C054,detection false positive,detection_false_positive,Phi-4,R4,PC-3__fix,DU,n/a,,True
+layer1,C055,repair failure,repair_failure,Qwen2.5-Coder-14B,R1,PV-210910,RW,n/a,RX,False
+layer1,C056,slice effect,slice_effect,Phi-4,R1 vs R4,PV-208535__vul,CX,helped,CX,True
+layer1,C057,detection false negative,detection_false_negative,Qwen3-Coder-30B,R4,PV-206906__vul,DM,n/a,,False
+layer1,C058,localization miss,localization_miss,Qwen2.5-Coder-14B,R1,CV-166__vul,LN,n/a,CX,False
+layer1,C059,localization miss,localization_miss,Qwen3-Coder-30B,R1,CV-191__vul,LN,n/a,,False
+layer1,C060,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,PV-206604__vul,CX,helped,,False
+layer1,C061,slice effect,slice_effect,Qwen3-Coder-30B,R1 vs R4,PV-208450__fix,DG,hurt,,False
+layer1,C062,localization miss,localization_miss,Phi-4,R1,PV-215903__vul,UN,n/a,,False
+layer1,C063,detection false positive,detection_false_positive,Qwen2.5-Coder-14B,R4,PV-200108__fix,DG,n/a,CX,True
+layer1,C064,slice effect,slice_effect,Qwen3-Coder-30B,R1 vs R4,PV-201363__vul,DM,helped,,False
+layer1,C065,repair failure,repair_failure,Qwen2.5-Coder-14B,R4,SVE-7066,RN,n/a,,False
+layer1,C066,repair failure,repair_failure,Qwen2.5-Coder-14B,R4,CV-50,RW,n/a,CX,True
+layer1,C067,detection false positive,detection_false_positive,Phi-4,R1,SVE-9785__fix,DC,n/a,PM,False
+layer1,C068,localization miss,localization_miss,Qwen2.5-Coder-14B,R4,PV-209003__vul,UN,n/a,,True
+layer1,C069,detection false positive,detection_false_positive,Qwen2.5-Coder-14B,R4,PV-1667__fix,DG,n/a,,True
+layer1,C070,repair failure,repair_failure,Qwen2.5-Coder-14B,R1,PV-196578,LB,n/a,,False
+layer1,C071,detection false negative,detection_false_negative,Phi-4,R1,PV-210887__vul,CX,n/a,,False
+layer1,C072,repair failure,repair_failure,Phi-4,R4,CV-84,RX,n/a,RN,False
+layer1,C073,detection false positive,detection_false_positive,Qwen3-Coder-30B,R4,PV-211135__fix,DG,n/a,CX,True
+layer1,C074,detection false positive,detection_false_positive,Qwen3-Coder-30B,R4,PV-195362__fix,DG,n/a,,True
+layer1,C075,detection false positive,detection_false_positive,Qwen2.5-Coder-14B,R4,PV-211948__fix,DG,n/a,,True
+layer1,C076,detection false positive,detection_false_positive,Qwen2.5-Coder-14B,R4,PV-198239__fix,DG,n/a,CX,True
+layer1,C077,localization miss,localization_miss,Qwen2.5-Coder-14B,R1,SVE-24849__vul,LW,n/a,,False
+layer1,C078,localization miss,localization_miss,Phi-4,R4,PV-212436__vul,LN,n/a,,False
+layer1,C079,detection false negative,detection_false_negative,Qwen3-Coder-30B,R1,CV-162__vul,CX,n/a,,False
+layer1,C080,slice effect,slice_effect,Qwen3-Coder-30B,R1 vs R4,SVE-24082__vul,DM,helped,,False
+layer1,C081,detection false negative,detection_false_negative,Phi-4,R1,PV-201385__vul,CX,n/a,,False
+layer1,C082,slice effect,slice_effect,Phi-4,R1 vs R4,PV-199712__fix,DU,hurt,CX,False
+layer1,C083,repair failure,repair_failure,Phi-4,R1,PC-8,RX,n/a,RW RX,True
+layer1,C084,localization miss,localization_miss,Qwen3-Coder-30B,R1,PV-198018__vul,LW,n/a,,False
+layer1,C085,detection false positive,detection_false_positive,Qwen3-Coder-30B,R1,PV-3708__fix,DC,n/a,PM,False
+layer1,C086,detection false positive,detection_false_positive,Qwen3-Coder-30B,R4,SVE-8045__fix,DG,n/a,,False
+layer1,C087,detection false positive,detection_false_positive,Phi-4,R1,SVE-6695__fix,DC,n/a,PM,False
+layer1,C088,localization miss,localization_miss,Qwen3-Coder-30B,R1,SVE-8455__vul,LN,n/a,,False
+layer1,C089,slice effect,slice_effect,Phi-4,R1 vs R4,PV-195023__vul,DM,helped,CX,False
+layer1,C090,detection false negative,detection_false_negative,Qwen3-Coder-30B,R4,PV-3602__vul,DS,n/a,,False
+layer1,C091,detection false positive,detection_false_positive,Phi-4,R4,PV-215921__fix,DG,n/a,CX,True
+layer1,C092,repair failure,repair_failure,Qwen2.5-Coder-14B,R4,SVE-8172,RX,n/a,RN,False
+layer1,C093,localization miss,localization_miss,Qwen3-Coder-30B,R1,PV-211253__vul,LN,n/a,,False
+layer1,C094,localization miss,localization_miss,Qwen3-Coder-30B,R1,PV-197972__vul,LN,n/a,CX,False
+layer1,C095,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,CV-285__vul,UN,hurt,,True
+layer1,C096,detection false negative,detection_false_negative,Phi-4,R1,PV-212839__vul,DM,n/a,,False
+layer1,C097,slice effect,slice_effect,Qwen2.5-Coder-14B,R1 vs R4,PV-10663__vul,DM,helped,,False
+layer1,C098,detection false positive,detection_false_positive,Phi-4,R1,SVE-23275__fix,DC,n/a,CX,False
+layer1,C099,localization miss,localization_miss,Qwen3-Coder-30B,R4,PV-215481__vul,LN,n/a,,False
+layer1,C100,slice effect,slice_effect,Qwen3-Coder-30B,R1 vs R4,CV-189__fix,CX,helped,CX,True
+layer2,T001,localization,localization_miss,Qwen3-Coder-30B,R1,PV-202719__vul,SM,,LN,False
+layer2,T002,localization,localization_miss,Phi-4,R1,PC-12__vul,AE,,LW SC,False
+layer2,T003,localization,localization_miss,Qwen3-Coder-30B,R1,PV-217459__vul,UN,,LN,False
+layer2,T004,localization,localization_miss,Phi-4,R4,PV-215347__vul,AE,,SC SP,True
+layer2,T005,localization,localization_miss,Qwen3-Coder-30B,R4,PV-195217__vul,SP,,AE,False
+layer2,T006,localization,localization_miss,Qwen3-Coder-30B,R4,SVE-9520__vul,SM,,SP,False
+layer2,T007,detection,detection_false_negative,Qwen3-Coder-30B,R4,CV-122__vul,CX,,DS,False
+layer2,T008,detection,detection_false_positive,Phi-4,R1,PV-195022__fix,SM,,,False
+layer2,T009,detection,detection_false_negative,Phi-4,R1,PV-198191__vul,PH,,,False
+layer2,T010,detection,detection_false_negative,Qwen3-Coder-30B,R4,CV-280__vul,OT,,OT,True
+layer2,T011,detection,detection_false_positive,Qwen3-Coder-30B,R1,CV-263__fix,SM,,AN PM,False
+layer2,T012,localization,localization_miss,Phi-4,R4,SVE-15720__vul,AE,,LW SP,True
+layer2,T013,detection,detection_false_positive,Phi-4,R4,SVE-19671__fix,SM,,PM SM,True
+layer2,T014,detection,detection_false_positive,Qwen3-Coder-30B,R4,PV-211489__fix,SM,,,False
+layer2,T015,detection,detection_false_negative,Qwen3-Coder-30B,R1,PV-204346__vul,PM,,,True
+layer2,T016,detection,detection_false_negative,Qwen3-Coder-30B,R4,PC-13__vul,OT,,CX,False
+layer2,T017,detection,detection_false_negative,Phi-4,R1,PV-195776__vul,OT,,SM,False
+layer2,T018,detection,detection_false_positive,Qwen3-Coder-30B,R4,PV-627__fix,AE,,SP,False
+layer2,T019,detection,detection_false_negative,Phi-4,R4,SVE-10804__vul,NF,,DS,False
+layer2,T020,localization,localization_miss,Phi-4,R1,PV-208204__vul,SM,,LW,False
+layer2,T021,detection,detection_false_positive,Qwen3-Coder-30B,R4,PV-2199__fix,AE,,DG SP,False
+layer2,T022,localization,localization_miss,Qwen3-Coder-30B,R4,SVE-7298__vul,UN,,LN,False
+layer2,T023,detection,detection_false_negative,Qwen3-Coder-30B,R1,PV-195776__vul,UN,,CX,True
+layer2,T024,detection,detection_false_negative,Qwen3-Coder-30B,R1,PV-200695__vul,RV,,SP,False
+layer2,T025,detection,detection_false_positive,Phi-4,R4,PV-207158__fix,AE,,DG SP,False
+layer2,T026,detection,detection_false_positive,Qwen3-Coder-30B,R4,SVE-8455__fix,SM,,AE DG,True
+layer2,T027,detection,detection_false_negative,Phi-4,R4,PV-204346__vul,UN,,DS,False
+layer2,T028,detection,detection_false_positive,Qwen3-Coder-30B,R1,CV-25__fix,SM,,,False
+layer2,T029,detection,detection_false_negative,Qwen3-Coder-30B,R1,PV-198743__vul,OT,,OT,True
+layer2,T030,localization,localization_miss,Phi-4,R1,PV-202756__vul,SM,,LN,False
+layer2,T031,detection,detection_false_positive,Phi-4,R1,PV-2199__fix,AE,,SM SP,False
+layer2,T032,detection,detection_false_positive,Phi-4,R4,PV-210570__fix,PM,,DG,True
+layer2,T033,localization,localization_miss,Phi-4,R4,CV-74__vul,AE,,LN,True
+layer2,T034,detection,detection_false_negative,Qwen3-Coder-30B,R4,PV-10086__vul,NF,,DS,True
+layer2,T035,localization,localization_miss,Qwen3-Coder-30B,R1,PC-12__vul,AE,,SC,False
+layer2,T036,detection,detection_false_positive,Phi-4,R1,SVE-6783__fix,SP,,AE,False
+layer2,T037,detection,detection_false_negative,Phi-4,R1,PV-7352__vul,PM,,CX SC,False
+layer2,T038,detection,detection_false_positive,Qwen3-Coder-30B,R1,PV-196935__fix,SP,,CX,False
+layer2,T039,detection,detection_false_negative,Phi-4,R4,SVE-23595__vul,NF,,DS,False
+layer2,T040,detection,detection_false_positive,Qwen3-Coder-30B,R1,PV-211489__fix,PM,,DC SM,True

@@ -1,0 +1,9 @@
+The annotations, RQ4 coding data, model responses, and results in this repository (rq4/, results/, cache/,
+paper/expected_tables.md, paper/figures/) are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Hakam Alomari and Mohammad Abdur Rafi Farhab.
+
+Third-party datasets keep their original licenses: PrimeVul (MIT) and SecVulEval (MIT); CleanVul is not
+redistributed (see README, Data licensing); the post-cutoff functions come from public fix commits under their
+projects' licenses.

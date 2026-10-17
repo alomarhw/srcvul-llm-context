@@ -1,0 +1,101 @@
+case_id,stratum,model,representation,unit_id,oracle
+C001,slice_effect,microsoft/phi-4,R1 vs R4,CV-236__fix,
+C002,repair_failure,microsoft/phi-4,R1,PV-206555,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C003,repair_failure,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,SVE-11698,"{""parses"": true, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C004,localization_miss,microsoft/phi-4,R1,SVE-8158__vul,
+C005,detection_false_positive,microsoft/phi-4,R4,PV-200__fix,
+C006,detection_false_negative,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,SVE-15773__vul,
+C007,localization_miss,Qwen/Qwen2.5-Coder-14B-Instruct,R1,SVE-19981__vul,
+C008,detection_false_negative,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-7392__vul,
+C009,repair_failure,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-8561,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C010,slice_effect,microsoft/phi-4,R1 vs R4,PV-197518__fix,
+C011,detection_false_negative,microsoft/phi-4,R1,SVE-19233__vul,
+C012,localization_miss,Qwen/Qwen2.5-Coder-14B-Instruct,R4,SVE-7727__vul,
+C013,slice_effect,microsoft/phi-4,R1 vs R4,PV-10663__vul,
+C014,detection_false_positive,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,CV-253__fix,
+C015,detection_false_negative,Qwen/Qwen2.5-Coder-14B-Instruct,R1,PV-202898__vul,
+C016,detection_false_negative,Qwen/Qwen2.5-Coder-14B-Instruct,R4,SVE-24642__vul,
+C017,repair_failure,microsoft/phi-4,R1,PV-198487,"{""parses"": true, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C018,detection_false_positive,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-211917__fix,
+C019,localization_miss,microsoft/phi-4,R1,PV-195234__vul,
+C020,detection_false_negative,microsoft/phi-4,R1,PV-208486__vul,
+C021,detection_false_negative,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-2870__vul,
+C022,repair_failure,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-212139,"{""parses"": true, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C023,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,PV-1991__vul,
+C024,detection_false_negative,Qwen/Qwen2.5-Coder-14B-Instruct,R1,SVE-15140__vul,
+C025,repair_failure,microsoft/phi-4,R4,PV-216515,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": true, ""eliminated"": false}"
+C026,repair_failure,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,SVE-12215,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C027,repair_failure,microsoft/phi-4,R1,SVE-19605,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C028,repair_failure,Qwen/Qwen2.5-Coder-14B-Instruct,R1,PV-204826,"{""parses"": true, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C029,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,PV-213370__fix,
+C030,localization_miss,microsoft/phi-4,R1,CV-185__vul,
+C031,repair_failure,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-195391,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": true, ""eliminated"": false}"
+C032,detection_false_negative,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-196831__vul,
+C033,slice_effect,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1 vs R4,PV-211868__fix,
+C034,detection_false_positive,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-205900__fix,
+C035,repair_failure,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,CV-219,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C036,detection_false_negative,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-205957__vul,
+C037,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,SVE-14642__fix,
+C038,detection_false_negative,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,CV-165__vul,
+C039,detection_false_positive,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-8561__fix,
+C040,localization_miss,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-208115__vul,
+C041,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,PV-197824__vul,
+C042,detection_false_negative,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-196811__vul,
+C043,localization_miss,Qwen/Qwen2.5-Coder-14B-Instruct,R4,CV-100__vul,
+C044,localization_miss,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-201881__vul,
+C045,repair_failure,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-2130,"{""parses"": false, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C046,detection_false_positive,Qwen/Qwen2.5-Coder-14B-Instruct,R1,PV-197276__fix,
+C047,detection_false_negative,Qwen/Qwen2.5-Coder-14B-Instruct,R1,CV-65__vul,
+C048,localization_miss,microsoft/phi-4,R1,CV-242__vul,
+C049,detection_false_negative,microsoft/phi-4,R1,PV-0__vul,
+C050,slice_effect,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1 vs R4,PV-211714__vul,
+C051,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,PV-213025__fix,
+C052,detection_false_positive,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-198095__fix,
+C053,repair_failure,Qwen/Qwen2.5-Coder-14B-Instruct,R1,PV-197223,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C054,detection_false_positive,microsoft/phi-4,R4,PC-3__fix,
+C055,repair_failure,Qwen/Qwen2.5-Coder-14B-Instruct,R1,PV-210910,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C056,slice_effect,microsoft/phi-4,R1 vs R4,PV-208535__vul,
+C057,detection_false_negative,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-206906__vul,
+C058,localization_miss,Qwen/Qwen2.5-Coder-14B-Instruct,R1,CV-166__vul,
+C059,localization_miss,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,CV-191__vul,
+C060,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,PV-206604__vul,
+C061,slice_effect,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1 vs R4,PV-208450__fix,
+C062,localization_miss,microsoft/phi-4,R1,PV-215903__vul,
+C063,detection_false_positive,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-200108__fix,
+C064,slice_effect,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1 vs R4,PV-201363__vul,
+C065,repair_failure,Qwen/Qwen2.5-Coder-14B-Instruct,R4,SVE-7066,"{""parses"": false, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C066,repair_failure,Qwen/Qwen2.5-Coder-14B-Instruct,R4,CV-50,"{""parses"": true, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C067,detection_false_positive,microsoft/phi-4,R1,SVE-9785__fix,
+C068,localization_miss,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-209003__vul,
+C069,detection_false_positive,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-1667__fix,
+C070,repair_failure,Qwen/Qwen2.5-Coder-14B-Instruct,R1,PV-196578,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": true, ""signature_severed"": false, ""eliminated"": false}"
+C071,detection_false_negative,microsoft/phi-4,R1,PV-210887__vul,
+C072,repair_failure,microsoft/phi-4,R4,CV-84,"{""parses"": true, ""vul_pattern_changed"": false, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C073,detection_false_positive,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-211135__fix,
+C074,detection_false_positive,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-195362__fix,
+C075,detection_false_positive,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-211948__fix,
+C076,detection_false_positive,Qwen/Qwen2.5-Coder-14B-Instruct,R4,PV-198239__fix,
+C077,localization_miss,Qwen/Qwen2.5-Coder-14B-Instruct,R1,SVE-24849__vul,
+C078,localization_miss,microsoft/phi-4,R4,PV-212436__vul,
+C079,detection_false_negative,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,CV-162__vul,
+C080,slice_effect,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1 vs R4,SVE-24082__vul,
+C081,detection_false_negative,microsoft/phi-4,R1,PV-201385__vul,
+C082,slice_effect,microsoft/phi-4,R1 vs R4,PV-199712__fix,
+C083,repair_failure,microsoft/phi-4,R1,PC-8,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": true, ""eliminated"": false}"
+C084,localization_miss,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-198018__vul,
+C085,detection_false_positive,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-3708__fix,
+C086,detection_false_positive,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,SVE-8045__fix,
+C087,detection_false_positive,microsoft/phi-4,R1,SVE-6695__fix,
+C088,localization_miss,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,SVE-8455__vul,
+C089,slice_effect,microsoft/phi-4,R1 vs R4,PV-195023__vul,
+C090,detection_false_negative,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-3602__vul,
+C091,detection_false_positive,microsoft/phi-4,R4,PV-215921__fix,
+C092,repair_failure,Qwen/Qwen2.5-Coder-14B-Instruct,R4,SVE-8172,"{""parses"": true, ""vul_pattern_changed"": true, ""closer_to_official_fix"": false, ""signature_severed"": false, ""eliminated"": false}"
+C093,localization_miss,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-211253__vul,
+C094,localization_miss,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1,PV-197972__vul,
+C095,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,CV-285__vul,
+C096,detection_false_negative,microsoft/phi-4,R1,PV-212839__vul,
+C097,slice_effect,Qwen/Qwen2.5-Coder-14B-Instruct,R1 vs R4,PV-10663__vul,
+C098,detection_false_positive,microsoft/phi-4,R1,SVE-23275__fix,
+C099,localization_miss,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R4,PV-215481__vul,
+C100,slice_effect,Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,R1 vs R4,CV-189__fix,

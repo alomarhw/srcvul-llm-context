@@ -1,0 +1,17 @@
+# Data card
+
+All files share one schema (JSON lines, one vulnerable/fixed function pair per line):
+`unit_id, dataset, split, cve_id, cwe, project, commit_id, func_before (vulnerable, label 1), func_after (fixed, label 0), vul_lines (1-based lines of func_before), vul_lines_source, cve_year, extra`.
+Each pair gives two detection units (vulnerable and fixed). Filters everywhere: 5–200 lines, a real statement change (comments/whitespace ignored), one function per CVE per set. Built by `build_df89e_data.py RAW_DIR OUT_DIR` (seed 42).
+
+| File | Role | Pairs | Source |
+|---|---|---|---|
+| `primevul_pairs.jsonl` | **Main** detection + repair benchmark (RQ1–RQ3) | 1,000 (2,000 units), 302 projects, CVEs 2006–2022 | PrimeVul paired (Ding et al., ICSE 2025), HF `colin/PrimeVul`, MIT. All unique-CVE pairs of the chronologically held-out **test** (314) and **valid** (361) splits, plus 325 seeded **train** pairs. Labels verified against NVD; `split` is kept so results can be reported on the held-out splits alone. `vul_lines` = lines the fix removed/modified. |
+| `secvuleval_loc.jsonl` | **Localization** ground truth (RQ1 localization) | 500, 207 projects, CVEs 1999–2024 | SecVulEval (2025), HF `arag0rn/SecVulEval`, MIT. Curated **statement-level** vulnerable statements mapped to function lines (`vul_lines_source = secvuleval-statements`); `extra.context` holds the dataset's own context (globals, arguments, external functions) — usable as a non-slice context baseline. Max 40 per project (the source is Linux-heavy). |
+| `cleanvul_pairs.jsonl` | **Label-quality check** (secondary) | 300, 140 projects | CleanVul score-4 C/C++ pairs (Li et al., 2024; HF `yikun-li/CleanVul`): LLM-filtered high-confidence fix functions. Most rows carry no CVE/CWE id. CleanVul lists no license, so this package ships `cleanvul_index.jsonl` (all fields except the code, plus SHA-256 hashes) and `fetch_cleanvul.py`, which rebuilds the identical file from the public release. |
+| `primevul_official_test_pairs.jsonl` | **Comparability** with published results (RQ1-E3) | 435 (870 units), 143 projects | The complete, **unfiltered** PrimeVul paired test split, so pair-wise results (P-C, VP-S, FPR) compare directly with work reporting on it. Contains all 314 test pairs of `primevul_pairs.jsonl`. 2 pairs whose patched version comes from a different commit are kept and flagged (`extra.commit_mismatch`). 87 functions exceed 200 lines; prompts that exceed a model's context window count as failures. Built by `build_df89e_addons.py`. |
+| `primevul_train_lora.jsonl` | **Fine-tuned baseline** training data only (RQ1-E2, E-D) | 3,051, 472 projects | PrimeVul paired train pairs, disjoint by CVE id, commit and normalised function text from every evaluation file (asserted in `build_df89e_addons.py`). Never used for evaluation. |
+| `postcutoff_pairs.jsonl` | **Contamination control** | 35 | CVEs published 2026-05-10 … 2026-09-29, after every model's release (Qwen2.5-Coder-14B 2024-11; Phi-4 2024-12, data cutoff 2024-06; Qwen3-Coder-30B-A3B 2025-07). Mined from fix commits in openssl (26), php-src (7), libexpat (1), curl (1). Small and project-skewed: a contamination check with Wilson CIs, not a main result. |
+
+Disjointness: SecVulEval and CleanVul share no CVE and no identical vulnerable function with PrimeVul; the post-cutoff set shares none with any set.
+Big-Vul was replaced by PrimeVul because Big-Vul's commit-derived labels are known to be noisy (PrimeVul's own analysis).

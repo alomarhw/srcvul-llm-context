@@ -1,0 +1,18 @@
+{
+  "mode": "paper-grade",
+  "rows_or_items": 3670,
+  "repeats": 3,
+  "datasets": [
+    "primevul_pairs.jsonl",
+    "secvuleval_loc.jsonl",
+    "cleanvul_pairs.jsonl",
+    "postcutoff_pairs.jsonl"
+  ],
+  "paper_grade": true,
+  "models_under_test": [
+    "Qwen/Qwen2.5-Coder-14B-Instruct",
+    "Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8",
+    "microsoft/phi-4"
+  ],
+  "random_seed": 42
+}

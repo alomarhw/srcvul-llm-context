@@ -1,0 +1,11 @@
+out/
+.venv/
+__pycache__/
+data/raw/
+data/cleanvul_pairs.jsonl
+data/vulslicer_database/
+cache/llm_cache.sqlite
+data/primevul_train_lora.jsonl
+data/lora_train.jsonl
+results/records_rq3.jsonl
+.DS_Store

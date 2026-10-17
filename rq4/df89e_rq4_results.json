@@ -1,0 +1,215 @@
+{
+ "n": {
+  "layer1": 100,
+  "layer2": 40,
+  "adjudicated": 36
+ },
+ "layer1_by_stratum": {
+  "detection_false_negative": {
+   "CX": 10,
+   "DS": 4,
+   "DM": 4,
+   "UN": 2
+  },
+  "detection_false_positive": {
+   "DG": 10,
+   "DU": 4,
+   "DC": 4,
+   "LB": 2
+  },
+  "localization_miss": {
+   "LN": 12,
+   "UN": 4,
+   "LW": 3,
+   "LB": 1
+  },
+  "repair_failure": {
+   "RX": 8,
+   "RW": 6,
+   "RN": 5,
+   "LB": 1
+  },
+  "slice_effect": {
+   "DG": 5,
+   "DM": 5,
+   "CX": 4,
+   "DU": 3,
+   "UN": 2,
+   "DS": 1
+  }
+ },
+ "layer1_by_model": {
+  "Phi-4": {
+   "DM": 4,
+   "CX": 4,
+   "DU": 3,
+   "DG": 3,
+   "UN": 3,
+   "RX": 3,
+   "DC": 3,
+   "RW": 2,
+   "LN": 2,
+   "LW": 1,
+   "RN": 1,
+   "LB": 1
+  },
+  "Qwen2.5-Coder-14B": {
+   "DG": 6,
+   "CX": 5,
+   "LN": 4,
+   "UN": 4,
+   "DS": 3,
+   "DU": 3,
+   "RW": 3,
+   "RX": 2,
+   "DM": 2,
+   "LB": 2,
+   "RN": 1,
+   "LW": 1
+  },
+  "Qwen3-Coder-30B": {
+   "DG": 6,
+   "LN": 6,
+   "CX": 5,
+   "RX": 3,
+   "RN": 3,
+   "DM": 3,
+   "DS": 2,
+   "UN": 1,
+   "DU": 1,
+   "RW": 1,
+   "LB": 1,
+   "LW": 1,
+   "DC": 1
+  }
+ },
+ "layer1_by_representation": {
+  "R1": {
+   "CX": 9,
+   "LN": 7,
+   "RW": 5,
+   "UN": 4,
+   "DC": 4,
+   "RX": 3,
+   "LW": 3,
+   "LB": 3,
+   "RN": 2,
+   "DM": 2,
+   "DU": 1
+  },
+  "R4": {
+   "DG": 10,
+   "RX": 5,
+   "LN": 5,
+   "DS": 4,
+   "DU": 3,
+   "RN": 3,
+   "DM": 2,
+   "UN": 2,
+   "CX": 1,
+   "LB": 1,
+   "RW": 1
+  }
+ },
+ "layer1_slice_effect": {
+  "helped": {
+   "DM": 5,
+   "CX": 4,
+   "UN": 1
+  },
+  "hurt": {
+   "DG": 5,
+   "DU": 3,
+   "DS": 1,
+   "UN": 1
+  },
+  "neutral": {}
+ },
+ "layer1_cx_primary_or_secondary": 32,
+ "layer1_label_problems": [
+  "C046",
+  "C048",
+  "C052",
+  "C070"
+ ],
+ "layer2_overall": {
+  "SM": 10,
+  "AE": 9,
+  "UN": 4,
+  "OT": 4,
+  "PM": 4,
+  "SP": 3,
+  "NF": 3,
+  "CX": 1,
+  "PH": 1,
+  "RV": 1
+ },
+ "layer2_by_model": {
+  "Phi-4": {
+   "AE": 6,
+   "SM": 4,
+   "NF": 2,
+   "PM": 2,
+   "PH": 1,
+   "OT": 1,
+   "UN": 1,
+   "SP": 1
+  },
+  "Qwen3-Coder-30B": {
+   "SM": 6,
+   "UN": 3,
+   "OT": 3,
+   "AE": 3,
+   "SP": 2,
+   "PM": 2,
+   "CX": 1,
+   "RV": 1,
+   "NF": 1
+  }
+ },
+ "layer2_by_stratum": {
+  "detection_false_negative": {
+   "OT": 4,
+   "NF": 3,
+   "PM": 2,
+   "UN": 2,
+   "CX": 1,
+   "PH": 1,
+   "RV": 1
+  },
+  "detection_false_positive": {
+   "SM": 6,
+   "AE": 4,
+   "PM": 2,
+   "SP": 2
+  },
+  "localization_miss": {
+   "AE": 5,
+   "SM": 4,
+   "UN": 2,
+   "SP": 1
+  }
+ },
+ "layer2_by_representation": {
+  "R1": {
+   "SM": 6,
+   "AE": 3,
+   "PM": 3,
+   "UN": 2,
+   "OT": 2,
+   "SP": 2,
+   "PH": 1,
+   "RV": 1
+  },
+  "R4": {
+   "AE": 6,
+   "SM": 4,
+   "NF": 3,
+   "OT": 2,
+   "UN": 2,
+   "SP": 1,
+   "CX": 1,
+   "PM": 1
+  }
+ }
+}

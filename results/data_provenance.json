@@ -1,0 +1,129 @@
+{
+  "usedSynthetic": false,
+  "datasets": [
+    {
+      "name": "primevul_pairs.jsonl",
+      "source": "real",
+      "path": "data/primevul_pairs.jsonl",
+      "rows": 2000,
+      "recordCount": 1000,
+      "version": "",
+      "license": "",
+      "citation": "",
+      "checksum": "",
+      "schema": [
+        "commit_id",
+        "cve_id",
+        "cve_year",
+        "cwe",
+        "dataset",
+        "extra",
+        "func_after",
+        "func_before",
+        "project",
+        "split",
+        "unit_id",
+        "vul_lines",
+        "vul_lines_source"
+      ]
+    },
+    {
+      "name": "secvuleval_loc.jsonl",
+      "source": "real",
+      "path": "data/secvuleval_loc.jsonl",
+      "rows": 1000,
+      "recordCount": 500,
+      "version": "",
+      "license": "",
+      "citation": "",
+      "checksum": "",
+      "schema": [
+        "commit_id",
+        "cve_id",
+        "cve_year",
+        "cwe",
+        "dataset",
+        "extra",
+        "func_after",
+        "func_before",
+        "project",
+        "split",
+        "unit_id",
+        "vul_lines",
+        "vul_lines_source"
+      ]
+    },
+    {
+      "name": "cleanvul_pairs.jsonl",
+      "source": "real",
+      "path": "data/cleanvul_pairs.jsonl",
+      "rows": 600,
+      "recordCount": 300,
+      "version": "",
+      "license": "",
+      "citation": "",
+      "checksum": "",
+      "schema": [
+        "commit_id",
+        "cve_id",
+        "cve_year",
+        "cwe",
+        "dataset",
+        "extra",
+        "func_after",
+        "func_before",
+        "project",
+        "split",
+        "unit_id",
+        "vul_lines",
+        "vul_lines_source"
+      ]
+    },
+    {
+      "name": "postcutoff_pairs.jsonl",
+      "source": "real",
+      "path": "data/postcutoff_pairs.jsonl",
+      "rows": 70,
+      "recordCount": 35,
+      "version": "",
+      "license": "",
+      "citation": "",
+      "checksum": "",
+      "schema": [
+        "commit_id",
+        "cve_id",
+        "cve_year",
+        "cwe",
+        "dataset",
+        "extra",
+        "func_after",
+        "func_before",
+        "project",
+        "split",
+        "unit_id",
+        "vul_lines",
+        "vul_lines_source"
+      ]
+    }
+  ],
+  "leakage_excluded": {
+    "near_duplicate_pairs": 42,
+    "cve_straddle_pre_post": 0,
+    "project_straddle_pre_post": 4
+  },
+  "slicing": {
+    "srcslice": 112962,
+    "fallback": 2876,
+    "fallback_rate": 0.02482777672266441,
+    "srcml_available": true,
+    "coverage_median": 0.39285714285714285,
+    "coverage_p25": 0.2,
+    "coverage_p75": 0.5245901639344263
+  },
+  "modelsUnderTest": [
+    "Qwen/Qwen2.5-Coder-14B-Instruct",
+    "Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8",
+    "microsoft/phi-4"
+  ],
+  "servedModelVersions": {}
+}

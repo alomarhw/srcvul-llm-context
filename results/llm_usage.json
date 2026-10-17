@@ -1,0 +1,9 @@
+{
+  "models": [],
+  "api_calls": 0,
+  "cache_hits": 73398,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "served_versions": {},
+  "cache": "cache/llm_cache.sqlite"
+}

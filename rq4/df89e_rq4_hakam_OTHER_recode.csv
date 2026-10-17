@@ -1,0 +1,20 @@
+case_id,sheet,stage,your_note,suggested_code,final_code
+C008,layer 1 (main),detection false negative,"No vulnerable lines or fix are supplied, so the visible initialization logic does not identify which security condition the safe verdict missed.",UN,UN
+C009,layer 1 (main),repair failure,The response reproduces the original function without removing case 6 or adding the dial-address bound present in the official fix.,RN,RN
+C011,layer 1 (main),detection false negative,"The labelled mask operations are visible but no unsafe source-level behavior is established by the row, and compiled behavior or a fix would be needed to explain the failure.",UN,UN
+C022,layer 1 (main),repair failure,The reconstructed function retains the unguarded br->buffer[cwords] read at L124 instead of the official capacity-checked conditional read.,RN,RN
+C025,layer 1 (main),repair failure,"The patch reconstructs the old ticket-handling path but omits the official session duplication and cache-removal block, leaving session reuse behavior unchanged.",RN,RN
+C030,layer 1 (main),localization miss,"The ground truth marks an unused DEFINE_WAIT and a blank line, so the relationship between the cited wait/lock sequence and the intended vulnerability cannot be established without the fix.",UN,UN
+C033,layer 1 (main),slice effect,"The slice removes flow allocation and error-path gotos, making the cited uses appear unsafe and changing the verdict, but no Layer 1 code specifically covers a false flag induced by missing intraprocedural control flow.",DG,DG
+C037,layer 1 (main),slice effect,"The slice drops the L31 configuration guard and L25-L26 status-selection condition, making Status::Ok appear unconditional and causing the false flag without a fitting visible-guard code.",DG,DG
+C045,layer 1 (main),repair failure,"The response leaves zval_ptr_dtor(value) at L23 unchanged, whereas the official fix deletes it.",RN,RN
+C061,layer 1 (main),slice effect,"The slice retains conditions but removes the error returns at L11/L14/L20, so cited loop accesses lose their visible protection and the verdict worsens without a precise Layer 1 category.",DG,DG
+C062,layer 1 (main),localization miss,"The labelled lines are diagnostic statements whereas the citations identify buffer copying, and the row supplies no fix to establish the intended defect or their causal relationship.",UN,UN
+C065,layer 1 (main),repair failure,The patch reconstructs the function but leaves socket_mode = 0666 unchanged instead of the official 0660.,RN,RN
+C086,layer 1 (main),detection false positive,"The slice shows fdopen and fopen without their conditional-compilation context, so an apparent duplicate-open path cannot be distinguished from a representation artifact.",DG,DG
+T003,layer 2 (reasoning),localization,"The path-traversal explanation follows the filename-to-targetFile flow plausibly, but the row provides no fix or helper contract establishing a reasoning flaw behind the nonoverlapping citations.",UN,UN
+T019,layer 2 (reasoning),detection,"The reasoning appropriately limits its claim to a three-line snippet that omits labelled L28, so no specific Aegis reasoning flaw is established from the available evidence.",NF,NF
+T022,layer 2 (reasoning),localization,"The reasoning identifies a plausible unchecked stream advance at L4, and the signature-only ground truth does not establish a reasoning flaw explaining the localization mismatch.",UN,UN
+T024,layer 2 (reasoning),detection,"The written conclusion explicitly asserts a vulnerability in buffer metadata but the recorded verdict is safe, producing a reasoning-verdict contradiction outside the listed Aegis codes.",RV,RV
+T027,layer 2 (reasoning),detection,"The reasoning correctly limits its observations to four loop headers with no bodies, so missing intraprocedural evidence explains the mismatch without a demonstrated reasoning flaw.",NF,UN
+T039,layer 2 (reasoning),detection,"The reasoning correctly states that the lone incomplete pointer declaration omits labelled L5 and provides no analyzable operation, so no Aegis reasoning flaw is supported.",NF,NF

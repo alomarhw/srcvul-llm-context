@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the article."
+title: "Shorter, Not Smarter: replication package"
+type: software
+authors:
+  - family-names: Alomari
+    given-names: Hakam
+    affiliation: Miami University
+    email: alomarhw@miamioh.edu
+  - family-names: Farhab
+    given-names: Mohammad Abdur Rafi
+    affiliation: Miami University
+    email: farhabm@miamioh.edu
+license: MIT
+repository-code: "https://github.com/alomarhw/srcvul-llm-context"
+version: "1.0.0"
+date-released: "2026-10-16"
+preferred-citation:
+  type: article
+  title: "Shorter, Not Smarter: Dependency Slices as Context for LLM Vulnerability Detection, Localization, and Repair"
+  authors:
+    - family-names: Alomari
+      given-names: Hakam
+    - family-names: Farhab
+      given-names: Mohammad Abdur Rafi
+  year: 2026
+  notes: "Submitted to ACM Transactions on Software Engineering and Methodology."
