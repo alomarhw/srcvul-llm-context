@@ -1,5 +1,5 @@
-"""Decompress the .xz files (frozen response cache, large data and record files) and check every file listed in
-CHECKSUMS.json. Usage: python scripts/unpack.py"""
+"""Decompress the .xz files (frozen response cache, large data and record files), join the split LoRA adapter, and
+check every file listed in CHECKSUMS.json. Usage: python scripts/unpack.py"""
 
 import hashlib
 import json
@@ -18,6 +18,14 @@ def main() -> int:
             with lzma.open(xz) as f, open(dst, "wb") as g:
                 shutil.copyfileobj(f, g)
             print(f"unpacked {dst.relative_to(ROOT)}")
+    for first in sorted(ROOT.rglob("*.part-aa")):
+        stem = first.name[: -len(".part-aa")]
+        dst = first.with_name(stem)
+        if not dst.exists():
+            with open(dst, "wb") as g:
+                for part in sorted(first.parent.glob(stem + ".part-*")):
+                    g.write(part.read_bytes())
+            print(f"joined   {dst.relative_to(ROOT)}")
     bad = 0
     for rel, want in json.loads((ROOT / "CHECKSUMS.json").read_text()).items():
         p = ROOT / rel

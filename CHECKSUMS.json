@@ -9,6 +9,7 @@
  "data/primevul_pairs.jsonl": "1915ea727324d43c58fde0ce3812bb024a3c8fa04f0c4e87069e9cebab59ff26",
  "data/primevul_train_lora.jsonl": "f873594f839e96818b4b949caceaca1fa0f1ad26f5260b2f875c0cd45fa0e4e0",
  "data/secvuleval_loc.jsonl": "d06ccd97b09edfa15b909202dfdc3e0622b7799772f171753de46edefabe2cc0",
+ "model/lora_adapter/adapter_model.safetensors": "59f83616b1792cc506cef02311c973ad75f86806799f89dd1a370b04f78f4d0e",
  "results/census_manifest.json": "ba773a4135eafe4644f699d396d7eb7fc4d842f9009f523904d659ce0fc8757f",
  "results/data_provenance.json": "15e9418b3bb25ce4fb1638a24e3a65e98c876aeab613a6064aa238844ae0705f",
  "results/llm_usage.json": "084a1e07079cb12e508222251e4be086e876ed406e4f207c94449262fd3f8c73",

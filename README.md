@@ -66,6 +66,7 @@ results/        the outputs of the reported run
 paper/          table and figure generators, the expected tables, and the figures as they appear in the article
 rq4/            codebook v1.2, the blinded samples, both coders' sheets, adjudication, final labels, agreement,
                 the model-identity keys, the case studies, and the sampling and agreement scripts
+model/          the LoRA fine-tuned baseline: adapter weights, training configuration and log (see model/README.md)
 superseded_label_seeded_run/   the earlier run whose slices were seeded on the labelled lines (it leaked the
                 answer and is not reported); kept so the leak can be checked against the label-free run
 environment/    pinned Python requirements (analysis/replay; GPU inference)
@@ -93,7 +94,7 @@ To run it:
 3. Point `RP_LLM_CACHE` at a new, empty cache.
 4. Run `python src/main.py --full`.
 
-New responses will differ slightly from the frozen ones because GPU inference is not bit-exact. The 200-unit repeat runs bound that variation (flip rate at most 0.05). The LoRA configuration is in `src/train_lora.py` and the article's Appendix H.
+New responses will differ slightly from the frozen ones because GPU inference is not bit-exact. The 200-unit repeat runs bound that variation (flip rate at most 0.05). The trained LoRA adapter, its configuration, and the training log are in `model/` (Appendix H of the article).
 
 ## Data licensing
 

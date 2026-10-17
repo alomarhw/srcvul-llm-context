@@ -1,0 +1,38 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<05:14,  1.07it/s]Loading weights:   1%|          | 2/339 [00:01<04:25,  1.27it/s]Loading weights:   1%|▏         | 5/339 [00:01<01:28,  3.77it/s]Loading weights:   3%|▎         | 10/339 [00:01<00:36,  8.97it/s]Loading weights:   5%|▍         | 16/339 [00:02<00:20, 16.03it/s]Loading weights:   6%|▌         | 20/339 [00:02<00:17, 17.83it/s]Loading weights:   8%|▊         | 28/339 [00:02<00:12, 24.26it/s]Loading weights:  10%|█         | 34/339 [00:02<00:10, 30.19it/s]Loading weights:  12%|█▏        | 40/339 [00:02<00:08, 35.78it/s]Loading weights:  13%|█▎        | 45/339 [00:02<00:08, 33.59it/s]Loading weights:  15%|█▌        | 52/339 [00:02<00:07, 39.41it/s]Loading weights:  17%|█▋        | 57/339 [00:03<00:07, 35.82it/s]Loading weights:  19%|█▊        | 63/339 [00:03<00:08, 33.45it/s]Loading weights:  21%|██        | 70/339 [00:03<00:06, 40.48it/s]Loading weights:  22%|██▏       | 76/339 [00:03<00:07, 37.48it/s]Loading weights:  24%|██▍       | 82/339 [00:03<00:06, 41.70it/s]Loading weights:  26%|██▌       | 88/339 [00:03<00:05, 45.73it/s]Loading weights:  28%|██▊       | 94/339 [00:03<00:06, 39.50it/s]Loading weights:  29%|██▉       | 100/339 [00:04<00:05, 42.70it/s]Loading weights:  31%|███       | 105/339 [00:04<00:06, 37.82it/s]Loading weights:  33%|███▎      | 112/339 [00:04<00:05, 42.46it/s]Loading weights:  35%|███▍      | 117/339 [00:04<00:05, 37.41it/s]Loading weights:  37%|███▋      | 124/339 [00:04<00:05, 35.94it/s]Loading weights:  38%|███▊      | 130/339 [00:04<00:05, 40.19it/s]Loading weights:  40%|████      | 136/339 [00:05<00:05, 37.15it/s]Loading weights:  42%|████▏     | 142/339 [00:05<00:04, 39.94it/s]Loading weights:  44%|████▍     | 149/339 [00:05<00:04, 40.05it/s]Loading weights:  45%|████▌     | 154/339 [00:05<00:04, 41.84it/s]Loading weights:  47%|████▋     | 160/339 [00:05<00:04, 37.79it/s]Loading weights:  49%|████▉     | 166/339 [00:05<00:04, 41.62it/s]Loading weights:  51%|█████     | 172/339 [00:05<00:03, 45.28it/s]Loading weights:  52%|█████▏    | 177/339 [00:06<00:04, 39.35it/s]Loading weights:  54%|█████▍    | 184/339 [00:06<00:03, 44.35it/s]Loading weights:  56%|█████▌    | 189/339 [00:06<00:03, 38.99it/s]Loading weights:  58%|█████▊    | 196/339 [00:06<00:03, 37.15it/s]Loading weights:  60%|█████▉    | 202/339 [00:06<00:03, 41.50it/s]Loading weights:  61%|██████▏   | 208/339 [00:06<00:02, 44.99it/s]Loading weights:  63%|██████▎   | 213/339 [00:06<00:03, 38.22it/s]Loading weights:  65%|██████▍   | 220/339 [00:07<00:02, 41.21it/s]Loading weights:  66%|██████▋   | 225/339 [00:07<00:03, 35.63it/s]Loading weights:  68%|██████▊   | 232/339 [00:07<00:03, 34.22it/s]Loading weights:  70%|███████   | 238/339 [00:07<00:02, 38.93it/s]Loading weights:  72%|███████▏  | 244/339 [00:07<00:02, 43.20it/s]Loading weights:  73%|███████▎  | 249/339 [00:07<00:02, 38.01it/s]Loading weights:  76%|███████▌  | 256/339 [00:08<00:01, 42.95it/s]Loading weights:  77%|███████▋  | 261/339 [00:08<00:02, 37.78it/s]Loading weights:  79%|███████▉  | 268/339 [00:08<00:01, 42.63it/s]Loading weights:  81%|████████  | 273/339 [00:08<00:01, 37.96it/s]Loading weights:  83%|████████▎ | 280/339 [00:08<00:01, 42.98it/s]Loading weights:  84%|████████▍ | 285/339 [00:08<00:01, 38.23it/s]Loading weights:  86%|████████▌ | 292/339 [00:08<00:01, 43.13it/s]Loading weights:  88%|████████▊ | 297/339 [00:09<00:01, 38.14it/s]Loading weights:  90%|████████▉ | 304/339 [00:09<00:00, 43.39it/s]Loading weights:  91%|█████████ | 309/339 [00:09<00:00, 38.41it/s]Loading weights:  93%|█████████▎| 316/339 [00:09<00:00, 43.67it/s]Loading weights:  95%|█████████▍| 321/339 [00:09<00:00, 38.69it/s]Loading weights:  97%|█████████▋| 328/339 [00:09<00:00, 43.73it/s]Loading weights:  98%|█████████▊| 333/339 [00:09<00:00, 38.60it/s]Loading weights: 100%|██████████| 339/339 [00:09<00:00, 33.97it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+trainable params: 40,370,176 || all params: 7,655,986,688 || trainable%: 0.5273
+{"step": 20, "of": 668, "loss": 0.4592, "lr": 0.0002, "elapsed_min": 6.1}
+{"step": 40, "of": 668, "loss": 0.2104, "lr": 0.00019953027957931658, "elapsed_min": 12.9}
+{"step": 60, "of": 668, "loss": 0.1323, "lr": 0.00019812553106273847, "elapsed_min": 19.4}
+{"step": 80, "of": 668, "loss": 0.2472, "lr": 0.0001957989512315489, "elapsed_min": 25.7}
+{"step": 100, "of": 668, "loss": 0.1945, "lr": 0.00019257239692688907, "elapsed_min": 31.8}
+{"step": 120, "of": 668, "loss": 0.2114, "lr": 0.00018847617971766577, "elapsed_min": 38.0}
+{"step": 140, "of": 668, "loss": 0.1729, "lr": 0.00018354878114129367, "elapsed_min": 43.8}
+{"step": 160, "of": 668, "loss": 0.0332, "lr": 0.00017783649119241602, "elapsed_min": 49.7}
+{"step": 180, "of": 668, "loss": 0.0275, "lr": 0.00017139297345578994, "elapsed_min": 56.1}
+{"step": 200, "of": 668, "loss": 0.2886, "lr": 0.00016427876096865394, "elapsed_min": 62.3}
+{"step": 220, "of": 668, "loss": 0.1705, "lr": 0.00015656068754865387, "elapsed_min": 68.2}
+{"step": 240, "of": 668, "loss": 0.0332, "lr": 0.00014831125992966385, "elapsed_min": 74.8}
+{"step": 260, "of": 668, "loss": 0.0318, "lr": 0.0001396079766039157, "elapsed_min": 80.7}
+{"step": 280, "of": 668, "loss": 0.0194, "lr": 0.00013053259976951133, "elapsed_min": 86.3}
+{"step": 300, "of": 668, "loss": 0.2755, "lr": 0.0001211703872229411, "elapsed_min": 92.2}
+{"step": 320, "of": 668, "loss": 0.3819, "lr": 0.00011160929141252303, "elapsed_min": 98.5}
+{"step": 340, "of": 668, "loss": 0.3411, "lr": 0.00010193913317718244, "elapsed_min": 104.8}
+{"step": 360, "of": 668, "loss": 0.2771, "lr": 9.225075793280692e-05, "elapsed_min": 110.9}
+{"step": 380, "of": 668, "loss": 0.2564, "lr": 8.263518223330697e-05, "elapsed_min": 116.6}
+{"step": 400, "of": 668, "loss": 0.0288, "lr": 7.318273872393628e-05, "elapsed_min": 122.6}
+{"step": 420, "of": 668, "loss": 0.3575, "lr": 6.398222751952896e-05, "elapsed_min": 128.8}
+{"step": 440, "of": 668, "loss": 0.2675, "lr": 5.5120081979953785e-05, "elapsed_min": 134.6}
+{"step": 460, "of": 668, "loss": 0.2365, "lr": 4.6679556719830864e-05, "elapsed_min": 140.4}
+{"step": 480, "of": 668, "loss": 0.0288, "lr": 3.873994548067972e-05, "elapsed_min": 147.0}
+{"step": 500, "of": 668, "loss": 0.1739, "lr": 3.137583621312665e-05, "elapsed_min": 153.2}
+{"step": 520, "of": 668, "loss": 0.1525, "lr": 2.465641036723395e-05, "elapsed_min": 159.0}
+{"step": 540, "of": 668, "loss": 0.1764, "lr": 1.864479297370325e-05, "elapsed_min": 165.0}
+{"step": 560, "of": 668, "loss": 0.2094, "lr": 1.3397459621556153e-05, "elapsed_min": 170.3}
+{"step": 580, "of": 668, "loss": 0.3129, "lr": 8.963705903385345e-06, "elapsed_min": 176.5}
+{"step": 600, "of": 668, "loss": 0.4132, "lr": 5.385184312424974e-06, "elapsed_min": 182.2}
+{"step": 620, "of": 668, "loss": 0.2122, "lr": 2.6955129420176196e-06, "elapsed_min": 188.8}
+{"step": 640, "of": 668, "loss": 0.1204, "lr": 9.199596635154795e-07, "elapsed_min": 194.5}
+{"step": 660, "of": 668, "loss": 0.2578, "lr": 7.520474957699586e-08, "elapsed_min": 200.3}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+saved adapter to out_blind/adapter

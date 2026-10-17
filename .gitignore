@@ -9,3 +9,4 @@ data/primevul_train_lora.jsonl
 data/lora_train.jsonl
 results/records_rq3.jsonl
 .DS_Store
+model/lora_adapter/adapter_model.safetensors

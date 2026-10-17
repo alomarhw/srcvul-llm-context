@@ -13,9 +13,8 @@ authors:
     email: farhabm@miamioh.edu
 license: MIT
 repository-code: "https://github.com/alomarhw/srcvul-llm-context"
-version: "1.0.0"
-doi: "10.5281/zenodo.23430106"
-date-released: "2026-10-16"
+version: "1.1.0"
+date-released: "2026-10-17"
 preferred-citation:
   type: article
   title: "Shorter, Not Smarter: Dependency Slices as Context for LLM Vulnerability Detection, Localization, and Repair"
